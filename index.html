@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroForte & Sustentável | Painel Tecnológico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-logo">Agro<span>Forte</span></div>
+        <ul class="nav-links">
+            <li><a href="#dados">Indicadores</a></li>
+            <li><a href="#tecnologia">Pilares Técnicos</a></li>
+            <li><a href="#simulador">Simulador Profissional</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <span class="badge">Inovação e Meio Ambiente</span>
+            <h1>A Revolução Verde do Plantio Direto</h1>
+            <p>Produzir mais alimentos utilizando menos recursos naturais. Conheça a engenharia agronômica que equilibra o sustento do planeta e a conservação da biodiversidade.</p>
+            <a href="#simulador" class="btn-primary">Acessar Simulador de Safra</a>
+        </div>
+    </header>
+
+    <section id="dados" class="data-section">
+        <div class="section-title">
+            <h2>O Impacto Real no Ecossistema</h2>
+            <p>Dados consolidados sobre os benefícios do Sistema de Plantio Direto (SPD) em larga escala.</p>
+        </div>
+
+        <div class="metrics-grid">
+            <div class="metric-box">
+                <span class="num">75%</span>
+                <h4>Redução de Erosão</h4>
+                <p>A palhada residual evita o impacto direto da chuva, impedindo o escoamento de nutrientes preciosos e o assoreamento de rios.</p>
+            </div>
+            <div class="metric-box">
+                <span class="num">3.8t</span>
+                <h4>Carbono Sequestrado</h4>
+                <p>Por hectare ao ano. O solo não revolvido atua como um sumidouro natural de CO₂ em vez de liberá-lo na atmosfera.</p>
+            </div>
+            <div class="metric-box">
+                <span class="num">50%</span>
+                <h4>Economia de Água</h4>
+                <p>A cobertura vegetal diminui a evaporação, mantendo a umidade ideal da raiz e otimizando os lençóis freáticos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologia" class="tech-info">
+        <div class="info-container">
+            <div class="info-text">
+                <h3>Equilíbrio Térmico e Nutritivo</h3>
+                <p>No modelo tradicional, o uso de arados destrói as galerias naturais feitas por minhocas e decompõe a matéria orgânica de forma acelerada. No **Plantio Direto**, a biologia do solo trabalha a favor do agricultor.</p>
+                <p>A rotação de culturas (como alternar soja com milheto ou braquiária) garante que diferentes sistemas radiculares busquem nutrientes em várias profundidades, quebrando biologicamente o ciclo de pragas sem dependência exclusiva de defensivos químicos.</p>
+            </div>
+            <div class="info-stats">
+                <div class="stat-line">
+                    <span>Biodiversidade do Solo</span>
+                    <div class="stat-bar"><div class="fill" style="width: 95%;"></div></div>
+                </div>
+                <div class="stat-line">
+                    <span>Eficiência de Custos a Longo Prazo</span>
+                    <div class="stat-bar"><div class="fill" style="width: 88%;"></div></div>
+                </div>
+                <div class="stat-line">
+                    <span>Emissão de Gases Estufa</span>
+                    <div class="stat-bar"><div class="fill alert" style="width: 15%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="simulador" class="simulator-section">
+        <div class="sim-wrapper">
+            <div class="sim-sidebar">
+                <h3>Gerenciamento de Recursos</h3>
+                <p class="sim-intro">Você assume o papel de um engenheiro agrônomo. Complete as 3 Safras Anuais mantendo o solo saudável e a fazenda lucrativa.</p>
+                
+                <div class="hud-item">
+                    <span>Ano Atual:</span>
+                    <strong id="hud-ano">1º Ano (Safra de Verão)</strong>
+                </div>
+                <div class="hud-item">
+                    <span>Capital Disponível:</span>
+                    <strong id="hud-money">R$ 100.000</strong>
+                </div>
+                <div class="hud-item">
+                    <span>Saúde do Solo:</span>
+                    <strong id="hud-soil">100%</strong>
+                </div>
+            </div>
+
+            <div class="sim-main">
+                <div class="decision-box" id="decision-panel">
+                    <h4 id="decision-title">Decisão 1: Preparo do Terreno</h4>
+                    <p id="decision-desc">Como você vai preparar o solo para receber as primeiras sementes de soja?</p>
+                    
+                    <div class="options-stack" id="options-stack">
+                        </div>
+                </div>
+
+                <div class="log-box">
+                    <h4>Relatório de Campo</h4>
+                    <div id="log-content">
+                        <p class="system-msg">[Sistema] Aguardando diretrizes operacionais para iniciar a safra...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 AgroForte Inteligência Sustentável. Projeto Desenvolvido para Concurso Científico/Cultural.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
