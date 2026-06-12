@@ -1,1 +1,2 @@
 # AGRINHO-2026
+O objetivo principal do projeto é educar e conscientizar o usuário sobre a importância da sustentabilidade no campo através da interatividade, demonstrando, por meio de dados visuais e de um jogo-simulador de estratégia, que o equilíbrio entre a alta produtividade do agronegócio e a preservação do meio ambiente não é apenas possível, mas essencial para garantir a fertilidade do solo, a economia de recursos naturais e a lucratividade da fazenda a longo prazo.
